@@ -1,6 +1,7 @@
 # ArrayDataSource
 
 ## How to use
+```Objective-c
 - (void)renderCollectionView {
     PBDCarouselCollectionViewLayout *layout = [[PBDCarouselCollectionViewLayout alloc] init];
     layout.itemSize = CGSizeMake(self.imageWidth, self.carouselCollectionView.frame.size.height);
@@ -21,3 +22,4 @@
                                                      configureCellBlock:configureCell];
     self.carouselCollectionView.dataSource = self.photosArrayDataSource;
 }
+```
